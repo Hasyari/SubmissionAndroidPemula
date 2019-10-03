@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing"
+    android:minHeight="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            tools:src="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_name_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/img_book"
+            android:layout_toRightOf="@id/img_book"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/rounded_background"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/nama_buku" />
+
+        <TextView
+            android:id="@+id/tv_deskrip_book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@id/img_book"
+            android:layout_below="@id/tv_name_book"
+            android:layout_toRightOf="@id/img_book"
+            android:ellipsize="end"
+            android:maxLines="5"
+            tools:text="@string/deskripsi_buku" />
+
+
+    </RelativeLayout>
+</android.support.design.card.MaterialCardView>

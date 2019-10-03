@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Data Buku</string>
+    <string name="lorem">KALALAL</string>
+    <string name="nama_buku">Nama Buku</string>
+    <string name="nama_penulis">Nama Penulis</string>
+    <string name="nama_penerbit">Nama Penerbit</string>
+    <string name="isbn_buku">ISBN/EAN</string>
+    <string name="halaman_buku">Halaman Buku</string>
+    <string name="tahun">Tahun</string>
+    <string name="deskripsi_buku">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in hendrerit gravida rutrum. Ut sem viverra aliquet eget sit amet. Nunc mi ipsum faucibus vitae aliquet nec. Et tortor at risus viverra adipiscing at. Egestas purus viverra accumsan in nisl nisi. Semper feugiat nibh sed pulvinar proin. Nibh tellus molestie nunc non blandit massa enim. Sem nulla pharetra diam sit amet nisl. Non arcu risus quis varius quam quisque id diam.</string>
+</resources>
